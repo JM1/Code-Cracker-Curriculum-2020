@@ -79,3 +79,26 @@ Hints:
 > Use Python's [base64](https://docs.python.org/3/library/base64.html) library to decode the secret!
 
 Lines of Code (excl. blank lines): ~3
+
+## 2020-12-03, Thursday, Day Ⅱ: World wide investigations
+
+Our jester detected his shortcomings in security and has moved his secrets into the cloud 🌎
+As if that would safe him...
+
+Download file [`secret.txt`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day03/secret.txt) using Python
+and `print` its context.
+
+Hints:
+> Do not even think about using a browser to download that file, it won't work 😉
+
+> You might use the [`Requests`](https://requests.readthedocs.io/en/master/) module for fetching content via HTTP.
+
+> To install additional Python packages, follow install steps for your IDE, e.g.:
+> * [Anaconda](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/)
+> * Standalone [Spyder IDE](https://miamioh.instructure.com/courses/38817/pages/downloading-and-installing-packages)
+    (Try [Anaconda](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/) first!)
+> * [PyDev](https://www.planetofbits.com/python/how-to-install-a-python-package-in-eclipse/)
+> * Use [PIP](https://matthewhorne.me/how-to-install-python-and-pip-on-windows-10/), e.g.
+    `python -m pip install requests`
+
+Lines of Code (excl. blank lines): ~3-10
