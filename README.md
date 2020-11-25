@@ -102,3 +102,15 @@ Hints:
     `python -m pip install requests`
 
 Lines of Code (excl. blank lines): ~3-10
+
+## 2020-12-04, Friday, Day Ⅲ: Bridging worlds
+
+It's friday and it looks like our stupid buddy is already becoming lazy. One man's loss is another woman's gain 😁
+
+Download file [`secret_base64.txt`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day04/secret_base64.txt),
+decode its context and print the results!
+
+Hints:
+> Combine your programs from the last two days!
+
+Lines of Code (excl. blank lines): ~4-10
