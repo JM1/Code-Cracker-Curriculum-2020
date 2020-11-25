@@ -128,3 +128,19 @@ Hints:
 > search the site for links to files and then download these links within Python!
 
 Lines of Code (excl. blank lines): ~8-10
+
+## 2020-12-06, Sunday, Day ᚏ: 🍟🍗🍸
+
+Damn, what a slaughterhouse 🔪⛑🌹🌷
+It looks like this lunatic worked more thoroughly this time:
+Our daily secret has been splitted into dozens of pieces!
+Download [all files from here](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day06/) and reconstruct the secret!
+
+Hints:
+> Do use [loops](https://www.learnpython.org/en/Loops).
+
+> It is not necessary to parse the site or its HTML code in Python, just manually
+> search the site for links to files, look for repeating pattern(s) within the urls,
+> write a loop to generate the urls in Python and then download these urls with Python!
+
+Lines of Code (excl. blank lines): ~8-10
