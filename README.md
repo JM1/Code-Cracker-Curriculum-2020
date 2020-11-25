@@ -245,3 +245,19 @@ Hints:
 > because it will automatically close the file.
 
 Lines of Code (excl. blank lines): ~5-8
+
+## 2020-12-08, Tuesday, Day `b0111`: `¯\(°_o)/¯`
+
+You found a link:
+[`mysterious_hint.txt`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day08/mysterious_hint.txt).
+What now, Miss Marple?
+
+Hints:
+> 🌎📥🚪🔑📨
+
+> You may use the `IPython Console`, which e.g. comes preinstalled with
+> [`Spyder IDE`](http://docs.spyder-ide.org/develop/current/ipythonconsole.html),
+> to execute and visualize Python code interactively.
+> (`Spyder IDE` is bundled with [`Anaconda`](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/spyder/))
+
+Lines of Code (excl. blank lines): ~8-10
