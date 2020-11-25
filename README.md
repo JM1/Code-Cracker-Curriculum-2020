@@ -66,3 +66,16 @@ Examples:
 Next, fetch [Python script `secret.py`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day01/secret.py),
 open it with your newly installed IDE and hit `RUN`.
 That's it for today! Easy start, wasn't it? 😘
+
+## 2020-12-02, Wednesday, Day Ⅰ: Security through Obscurity
+
+Our favorite villain left us a cryptic message: `QXVmIGRlciBNYXRyYXR6ZSB1bnRlciBkZW0gQmV0dCBpbSBEYWNoZ2VzY2hvc3MK`
+
+This string looks like being [Base64](https://www.geeksforgeeks.org/base64-b64encode-in-python/) encoded.
+Good for you! Obviously, the mystery-monger did not know that decoding is not encryption and that you
+can easily reconstruct the secret by just decoding the base64 string! 🐧
+
+Hints:
+> Use Python's [base64](https://docs.python.org/3/library/base64.html) library to decode the secret!
+
+Lines of Code (excl. blank lines): ~3
