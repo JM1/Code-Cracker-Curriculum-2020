@@ -261,3 +261,19 @@ Hints:
 > (`Spyder IDE` is bundled with [`Anaconda`](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/spyder/))
 
 Lines of Code (excl. blank lines): ~8-10
+
+## 2020-12-09, Wednesday, Day `b1000`: High priestess of the Temple of Apollo
+
+Our cheeky rascal did not leave any trace today. Hmm..
+Let us consult [Pythia](https://en.wikipedia.org/wiki/Pythia) aka the Oracle of Delphi!
+
+Send your `{'question': 'Where to find today's suprise?'}` using `HTTP POST` to
+[`the oracle`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day09/oracle) and
+`print` the serve..eh..oracle's response!
+
+Hints:
+> Note, nowadays Pythia is speaking Python only, no ancient greek nor modern browser'ish!
+
+> Making a request with [`Requests`](https://requests.readthedocs.io/en/master/user/quickstart/) is very simple.
+
+Lines of Code (excl. blank lines): ~3-5
