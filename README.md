@@ -330,3 +330,68 @@ Hints:
 > Zero-based numbering, i.e. initial element of a sequence is assigned the index 0, rather than the index 1!
 
 Lines of Code (excl. blank lines): 0
+
+## 2020-12-13, Sunday, Day C: First day at Bletchley Park
+
+You have been asked to decipher yet another cryptic message:
+```Python
+cipher = [ 8, 13, 30,  3,  4,
+          17, 30, 10, 11,  4,
+           8, 13,  4, 13, 30,
+          15,  5,  0, 13, 13,
+           4, 30, 27,  1,  4,
+          17, 30,  3,  4, 12,
+          30, 10, 27,  7, 11,
+          18,  2,  7, 17,  0,
+          13, 10, 30,  8, 13,
+          30,  3,  4, 17, 30,
+          10, 27,  2,  7,  4 ]
+```
+Which secret might be concealed within this cryptic message?!?
+
+Ma'am, we just got a call from London!
+Our spies found a blueprint of the Enigma machine that was used to encrypt the above's secret:
+
+```Python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# TOP SECRET
+
+cleartext = 'classified information example'.lower()
+
+#       0    1    2    3    4    5    6    7    8    9   10
+abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+#      11   12   13   14   15   16   17   18   19   20   21
+       'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
+#      22   23   24   25   26   27   28   29   30   31   32
+       'w', 'x', 'y', 'z', 'ö', 'ü', 'ä', 'ß', ' ', ',', '-']
+
+cipher = []
+for c in cleartext:
+    idx = abc.index(c)
+    cipher.append(idx)
+
+print(cipher)
+```
+
+Find out how this encryption machine works.
+Manually apply all steps in reverse order to decrypt today's location in cleartext!
+
+Hints:
+
+> No coding required!
+> Step through the code line by line to understand its internals.
+> Lookup unknown function in the Python documentation,
+> e.g. [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
+> Use pen and paper to track all variables inside and outside of the loop in a
+> [table of values](https://de.wikipedia.org/wiki/Wertetabelle).
+> Once you got an idea of the code, develop an inverse algorithm in pseudo code on paper,
+> that rewinds all changes and recovers the original input!
+
+> It is strongly recommended to use a debugger! This allows one to add breakpoints at arbitrary lines of code at which
+> the program's execution flow will be interrupted, so that e.g. variable values at the current loop iteration can be
+> inspected. [Spyder GUI has a debugger built-in](https://docs.spyder-ide.org/current/debugging.html).
+
+> IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
+
+Lines of Code (excl. blank lines): 0
