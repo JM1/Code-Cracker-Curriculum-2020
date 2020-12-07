@@ -395,3 +395,35 @@ Hints:
 > IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
 
 Lines of Code (excl. blank lines): 0
+
+## 2020-12-14, Monday, Day D: Codebreakers
+
+Ma'am, we intercepted another encrypted message:
+
+```Python
+cipher = [ 8, 12, 30, 11,  8,
+          13, 10,  4, 18, 19,
+           4, 13, 31, 30, 14,
+           1,  4, 17,  4, 13,
+          30, 18,  2,  7, 20,
+           7, 30,  0, 20,  5,
+          30,  3,  4, 13, 30,
+          18,  2,  7, 20,  7,
+          18,  2,  7, 17, 28,
+          13, 10,  4, 13, 30,
+           8, 12, 30, 10,  4,
+           11, 11, 4, 17 ]
+```
+
+Build a decryption machine that applies all instructions of the Enigma machine in reverse order.
+
+Hints:
+> Codify your algorithm from yesterday!
+
+> If you're stuck, use the enigma machine as a starting point.
+> One possible way to write the inverse mechanism looks very much
+> like the original enigma machine with just minor changes.
+
+> IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
+
+Lines of Code (excl. blank lines): 9-10
