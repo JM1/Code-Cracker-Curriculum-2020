@@ -305,3 +305,28 @@ Hints:
 > Note, for security reasons access to our logs is granted via Python only. Browser access has been disabled!
 
 Lines of Code (excl. blank lines): ~10-15
+
+## 2020-12-12, Saturday, Day B: Career Advancement
+
+Your combinatory proficiency and programming skills have been recognized by the federal intelligence service 🔫😎.
+You have been asked to help with a mysterious message that was received from unknown origin.
+
+```Python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+cipher = [' ', ' ', ' ', ' ', ' ', ' ', 'a', 'a', 'b', 'c',
+          'c', 'd', 'd', 'e', 'e', 'e', 'e', 'e', 'e', 'e',
+          'e', 'h', 'h', 'i', 'i', 'i', 'l', 'l', 'm', 'n',
+          'n', 'n', 'n', 'r', 'r', 'r', 's', 't', 't', 't', 't']
+lookup_table = ( 2,  6, 16, 20, 24, 31, 10, 33, 32,  8,
+                11,  3, 21,  4, 14, 22, 26, 27, 29, 36,
+                39,  9, 12,  0, 18, 38, 15, 25, 17,  1,
+                23, 30, 40,  5, 28, 37,  7, 13, 19, 34, 35)
+```
+
+Hints:
+> No coding required! Use Pen and paper.
+
+> Zero-based numbering, i.e. initial element of a sequence is assigned the index 0, rather than the index 1!
+
+Lines of Code (excl. blank lines): 0
