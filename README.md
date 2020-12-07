@@ -277,3 +277,17 @@ Hints:
 > Making a request with [`Requests`](https://requests.readthedocs.io/en/master/user/quickstart/) is very simple.
 
 Lines of Code (excl. blank lines): ~3-5
+
+## 2020-12-10, Thursday, Day `b1001`: Swarm intelligence
+
+Detective 👮‍, we found five individuals that witnessed how our criminal tried to hide his loot.
+Due to the corona situation, we'll have to do the questioning of the witnesses remotely.
+
+Send your `{'question': 'What did you see?'}` using `HTTP POST` to
+[all witnesses](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day10/),
+fetch their responses and `print` your conclusion on this case.
+
+Hints:
+> You may combine your findings from Saturday and yesterday.
+
+Lines of Code (excl. blank lines): ~8-10
