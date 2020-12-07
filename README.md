@@ -427,3 +427,80 @@ Hints:
 > IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
 
 Lines of Code (excl. blank lines): 9-10
+
+## 2020-12-15, Tuesday, Day E: Multidimensional confusion
+
+Gosh, darn it! The encryption machine has been enhanced from 1d to 2d:
+
+```Python
+cipher = [[2, 1], [2, 2], [4, 1], [6, 1], [1, 1], [5, 2], [10, 0],
+          [1, 0], [1, 1], [4, 0], [10, 0], [3, 1], [8, 2], [3, 2],
+          [4, 1], [10, 2], [0, 1], [2, 2], [3, 2], [1, 0], [10, 0],
+          [0, 0], [6, 2], [1, 2], [10, 0], [1, 0], [1, 1], [4, 0],
+          [10, 0], [5, 2], [1, 1], [2, 0], [0, 0], [3, 2], [10, 0],
+          [2, 2], [4, 1], [10, 0], [1, 0], [1, 1], [2, 2], [4, 1],
+          [1, 1], [4, 0], [10, 0], [0, 1], [9, 0], [5, 2], [4, 2]]
+```
+
+Fortunately, our mole among has not been revealed yet and
+managed to leak the blueprint of the second enigma revision as well:
+
+```Python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# TOP SECRET
+
+import sys
+
+cleartext = 'classified information example'.lower()
+
+abc_2d = [# 0    1    2    j/i
+          ['a', 'b', 'c'], # 0
+          ['d', 'e', 'f'], # 1
+          ['g', 'h', 'i'], # 2
+          ['j', 'k', 'l'], # 3
+          ['m', 'n', 'o'], # 4
+          ['p', 'q', 'r'], # 5
+          ['s', 't', 'u'], # 6
+          ['v', 'w', 'x'], # 7
+          ['y', 'z', 'ö'], # 8
+          ['ü', 'ä', 'ß'], # 9
+          [' ', ',', '-']] # 10
+
+def find_index(c, array2d):
+    height = len(array2d)
+    for i in range(height):
+        row = array2d[i]
+        width = len(row)
+        for j in range(width):
+            if array2d[i][j] == c:
+                return list([i, j])
+    return None
+
+cipher = []
+for c in cleartext:
+    idx = find_index(c, abc_2d)
+    cipher.append(idx)
+
+print(cipher)
+```
+
+Hints:
+> Zero-based numbering, i.e. initial element of a sequence is assigned the index 0, rather than the index 1!
+
+> No coding required!
+> Step through the code line by line to understand its internals.
+> Lookup unknown function in the Python documentation,
+> e.g. [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
+> Use pen and paper to track all variables inside and outside of the loop in a
+> [table of values](https://de.wikipedia.org/wiki/Wertetabelle).
+> Once you got an idea of the code, develop an inverse algorithm in pseudo code on paper,
+> that rewinds all changes and recovers the original input!
+
+> It is strongly recommended to use a debugger! This allows one to add breakpoints at arbitrary lines of code at which
+> the program's execution flow will be interrupted, so that e.g. variable values at the current loop iteration can be
+> inspected. [Spyder GUI has a debugger built-in](https://docs.spyder-ide.org/current/debugging.html).
+
+> IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
+
+Lines of Code (excl. blank lines): 0
