@@ -291,3 +291,17 @@ Hints:
 > You may combine your findings from Saturday and yesterday.
 
 Lines of Code (excl. blank lines): ~8-10
+
+## 2020-12-11, Friday, Day X: Cold cases
+
+We have to go through the [archive](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day11/) and
+search all previous cases to find hints about where our kidnap victim (🍬) might have been taken to.
+
+Go `get` and `print` all criminal records, there must be something that leads us to today's crime scene!
+
+Hints:
+> Use `HTTP GET`, no `HTTP POST` required.
+
+> Note, for security reasons access to our logs is granted via Python only. Browser access has been disabled!
+
+Lines of Code (excl. blank lines): ~10-15
