@@ -83,7 +83,7 @@ Lines of Code (excl. blank lines): ~3
 ## 2020-12-03, Thursday, Day Ⅱ: World wide investigations
 
 Our jester detected his shortcomings in security and has moved his secrets into the cloud 🌎
-As if that would safe him...
+As if that would save him...
 
 Download file [`secret.txt`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day03/secret.txt) using Python
 and `print` its context.
@@ -267,7 +267,7 @@ Lines of Code (excl. blank lines): ~8-10
 Our cheeky rascal did not leave any trace today. Hmm..
 Let us consult [Pythia](https://en.wikipedia.org/wiki/Pythia) aka the Oracle of Delphi!
 
-Send your `{'question': 'Where to find today's suprise?'}` using `HTTP POST` to
+Send your `{'question': 'Where to find today\'s suprise?'}` using `HTTP POST` to
 [`the oracle`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day09/oracle) and
 `print` the serve..eh..oracle's response!
 
