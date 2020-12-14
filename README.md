@@ -530,3 +530,22 @@ Hints:
 > so `Pandas` won't use the first row for the column labels.
 
 Lines of Code (excl. blank lines): ~3-5
+
+## 2020-12-17, Thursday, Day XVI: Pandas do lay eggs
+
+Still halfdozing, with freshly brewed tea ☕ in your left hand and stirring in your breakfast 🍯 with the other,
+you are sitting in front of your computer 💻 and sift halfhearted through your mails 📥📬.
+Suddenly, a mail 📧 grabs your attention. It is empty except for a link to another
+[Excel sheet](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day17/secret.xlsx).
+What is that? 🔐
+
+Hints:
+> You may download the spreadsheet with any browser.
+
+> You may inspect the spreadsheet with e.g. Microsoft Excel.
+
+> Pass `header=None` as an extra argument to
+> [`read_excel`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html),
+> so `Pandas` won't use the first row for the column labels.
+
+Lines of Code (excl. blank lines): ~8-10
