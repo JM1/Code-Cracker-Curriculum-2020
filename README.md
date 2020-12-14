@@ -504,3 +504,29 @@ Hints:
 > IF YOU'RE STUCK, THEN ASK YOUR CHIEF SCIENTIST NEXT DOOR!!!
 
 Lines of Code (excl. blank lines): 0
+
+## 2020-12-16, Wednesday, Day F: The lull before the storm
+
+After four exhausting days abroad, helping out the federal intelligence service, you are glad to be back at your office.
+Sitting in front of your desk, you are looking forward to some relaxing time for the rest of the week,
+without further adventures or surprises ☀️⛱️😎🌅
+
+*\*Ping\** You got mail! 📨
+
+A mail without any hint about the sender. Just a plain mail with a link to an
+[Excel sheet](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day16/secret.xlsx).
+What could that be?
+
+Of course you cannot simply click on this link, too dangerous.
+Use Python library [`Pandas`](https://www.journaldev.com/33306/pandas-read_excel-reading-excel-file-in-python) to
+read and print this [Excel sheet `secret.xlsx`](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day16/secret.xlsx).
+
+Hints:
+> [`Pandas` has support for various URL shemes built-in, e.g. `http`](
+    https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html).
+> It is not necessary to download the Excel sheet with `urllib` or `requests` libraries.
+
+> Optionally, pass `header=None` as an extra argument to `read_excel`, 
+> so `Pandas` won't use the first row for the column labels.
+
+Lines of Code (excl. blank lines): ~3-5
