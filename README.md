@@ -549,3 +549,37 @@ Hints:
 > so `Pandas` won't use the first row for the column labels.
 
 Lines of Code (excl. blank lines): ~8-10
+
+## 2020-12-18, Friday, Day XVII: Pythonic arms race
+
+Finally, friday is here!
+Before enjoying your well-deserved vacation, you have a couple of hours left to ramp up your programming skills 🔧⚙️
+Two days before you had to extract data from a single cell.
+Yesterday the location string was split across a table row.
+The next logical step is a two-dimensional array aka a full table with rows and columns 📈 📊
+
+Download this [spreadsheet](https://berrendorf.inf.h-brs.de/~jmeng2m/ccc2020/day18/secret.xlsx) using any browser
+and open it in e.g. Microsoft Excel to inspect its contents. Use Python to concatenate all cell values into a single 
+one-dimensional array of characters aka a string and `base64`-decode it!
+
+Hints:
+> [`pandas.DataFrame.shape`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html)
+> will return the dimensionality of the DataFrame.
+
+> [`pandas.DataFrame.at`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.at.html) and/or
+> [`pandas.DataFrame.iat`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iat.html)
+> access a single value for a row/column label pair (`at`) or a row/column pair by integer position (`iat`).
+
+> Pass `header=None` as an extra argument to
+> [`read_excel`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html),
+> so `Pandas` won't use the first row for the column labels.
+
+> Many roads lead to rome.
+> You could use loop(s) with [`at`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.at.html)
+> /[`iat`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iat.html) to iterate over
+> the DataFrame's 2d array. Or you could use a more functional style of programming using
+> [`to_numpy`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html),
+> [`flatten`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html) and
+> [`join`](https://stackoverflow.com/a/4481731/6490710). Or you could come up with a completely different approach.
+
+Lines of Code (excl. blank lines): ~5-13
