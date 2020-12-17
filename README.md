@@ -527,6 +527,9 @@ Hints:
     https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html).
 > It is not necessary to download the Excel sheet with `urllib` or `requests` libraries.
 
+> [To read Excel sheets with Pandas, install and use `openpyxl`](https://stackoverflow.com/a/65266270/6490710):
+> In Anaconda run `%pip install openpyxl`, then pass `engine='openpyxl'` to `read_excel`.
+
 > Optionally, pass `header=None` as an extra argument to `read_excel`, 
 > so `Pandas` won't use the first row for the column labels.
 
@@ -544,6 +547,9 @@ Hints:
 > You may download the spreadsheet with any browser.
 
 > You may inspect the spreadsheet with e.g. Microsoft Excel.
+
+> [To read Excel sheets with Pandas, install and use `openpyxl`](https://stackoverflow.com/a/65266270/6490710):
+> In Anaconda run `%pip install openpyxl`, then pass `engine='openpyxl'` to `read_excel`.
 
 > Pass `header=None` as an extra argument to
 > [`read_excel`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html),
@@ -570,6 +576,9 @@ Hints:
 > [`pandas.DataFrame.at`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.at.html) and/or
 > [`pandas.DataFrame.iat`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iat.html)
 > access a single value for a row/column label pair (`at`) or a row/column pair by integer position (`iat`).
+
+> [To read Excel sheets with Pandas, install and use `openpyxl`](https://stackoverflow.com/a/65266270/6490710):
+> In Anaconda run `%pip install openpyxl`, then pass `engine='openpyxl'` to `read_excel`.
 
 > Pass `header=None` as an extra argument to
 > [`read_excel`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html),
